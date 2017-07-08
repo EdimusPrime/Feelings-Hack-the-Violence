@@ -24,6 +24,20 @@ purple 662d91
 
 }
 
+h3, h4{
+	color: #40c4e0;
+}
+
+h4::first-letter{
+	/*color: #662d91;*/
+	font-size: 3rem;
+}
+
+h3::first-letter{
+	/*color: #662d91;*/
+	font-size: 3rem;
+}
+
 
 .header a, .footer a{
 	color:white;
@@ -48,6 +62,12 @@ purple 662d91
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
+}
+
+.nav-bar a:hover{
+	color: #f9a01b;
+	text-decoration: underline;
+	font-weight: bolder;
 }
 
 .about_feelings, .goals, .faqs,.contact, .how_container{
@@ -87,12 +107,17 @@ purple 662d91
 	margin: auto;
 }
 
-.app-img{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+.app-img, .app-img img{
+	width: 50vw;
+	display: inline-block;
+	/*flex-wrap: wrap;*/
+/*	margin: auto;
+*/	margin-top: 20px;
 	margin: auto;
-	margin-top: 20px;
+}
+
+.app-img img{
+
 }
 
 .goal-items{
@@ -137,7 +162,14 @@ span{
 	border: 1px solid black;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin: auto;
 }
+
+.box{
+	margin: auto;
+	display: flex;
+}
+
 
 
 .footer{
