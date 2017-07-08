@@ -50,7 +50,7 @@ purple 662d91
 	padding: 10px;
 }
 
-.about_feelings, .goals, .faqs,.contact, .how{
+.about_feelings, .goals, .faqs,.contact, .how_container{
 	padding: 20px;
 }
 
@@ -63,6 +63,7 @@ purple 662d91
 	border: 1px solid black;
 	display: flex;
 	padding: 5px;
+	margin-bottom: 10px;
 }
 
 .about-img{
@@ -74,11 +75,16 @@ purple 662d91
 .goals{
 	border: 1px solid black;
 	display: flex;
-
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-.goals img{
+.goals img, .how img{
 	border-radius: 50px;
+}
+
+.goal-items p{
+	margin: auto;
 }
 
 .app-img{
@@ -86,6 +92,7 @@ purple 662d91
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: auto;
+	margin-top: 20px;
 }
 
 .goal-items{
@@ -94,21 +101,42 @@ purple 662d91
 	margin-right: 5px;	
 }
 
-.how{
+.how_container{
 	border: 1px solid black;
 	margin: auto;
 }
 
+.how{
+	border: 1px solid black;
+	margin: auto;
+	display: flex;
+}
+
+.how p{
+	margin: auto;
+}
+
+.how img{
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
 .faqs{
 	border: 1px solid black;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 span{
 	font-weight: bold;
+	color: #6cbe45;
 }
 
 .contact{
 	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 
