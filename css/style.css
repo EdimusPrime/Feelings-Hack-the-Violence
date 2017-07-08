@@ -50,13 +50,25 @@ purple 662d91
 	padding: 10px;
 }
 
-.about, .goals, .faqs,.contact{
+.about_feelings, .goals, .faqs,.contact, .how{
 	padding: 20px;
 }
 
-.about{
+.about_feelings{
 	border: 1px solid black;
-	width: 
+	margin: auto;
+}
+
+.about_container{
+	border: 1px solid black;
+	display: flex;
+	padding: 5px;
+}
+
+.about-img{
+	margin: auto;
+	margin-left: 10px;
+
 }
 
 .goals{
@@ -66,18 +78,33 @@ purple 662d91
 }
 
 .goals img{
+	border-radius: 50px;
 }
 
-.goal-img{
-	margin: auto;
+.app-img{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin: auto;
+}
 
+.goal-items{
+	border: 1px solid black;
+	padding: 10px;
+	margin-right: 5px;	
+}
+
+.how{
+	border: 1px solid black;
+	margin: auto;
 }
 
 .faqs{
 	border: 1px solid black;
+}
+
+span{
+	font-weight: bold;
 }
 
 .contact{
