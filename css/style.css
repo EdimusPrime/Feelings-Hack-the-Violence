@@ -1,13 +1,42 @@
+/*colors 
+Blue 40c4e0
+Yellow ffe443
+white
+grey c2c4c6
+orange f9a01b
+green 6cbe45
+purple 662d91
+*/
 
 
 
+*{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.main{
+	background-color: rgba(255, 228, 67, .8)
+}
+
+
+.about img{
+		padding-top: 10px;
+
+}
+
+
+.header a, .footer a{
+	color:white;
+	font-weight: bold
+}
 
 .header {
 	display: flex;
 	border: 1px solid black;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 30px;
 	align-items: baseline;
+	background-color: #40c4e0;
 }
 
 .header-img{
@@ -21,10 +50,65 @@
 	padding: 10px;
 }
 
+.about, .goals, .faqs,.contact{
+	padding: 20px;
+}
+
+.about{
+	border: 1px solid black;
+	width: 
+}
+
+.goals{
+	border: 1px solid black;
+	display: flex;
+
+}
+
+.goals img{
+}
+
+.goal-img{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.faqs{
+	border: 1px solid black;
+}
+
+.contact{
+	border: 1px solid black;
+}
 
 
 .footer{
 	border:1px solid black;
 	padding: 20px;
+	background-color: #40c4e0;
+}
+
+.footer .nav-bar{
+	margin: auto;
+}
+
+.download-img{
+	padding: 20px;
 
 }
+
+/*mailing list/contact form*/
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
