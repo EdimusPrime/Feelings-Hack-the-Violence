@@ -16,7 +16,6 @@ purple 662d91
 
 .main{
 	background-color: rgba(255, 228, 67, .8)
-
 }
 
 a:hover{
@@ -29,7 +28,7 @@ a:hover{
 
 }
 
-h3, h4{
+h2{
 	color: #40c4e0;
 }
 
@@ -65,12 +64,16 @@ p, li{
 	display: flex;
 	/*border: 1px solid black;*/
 	justify-content: space-between;
-	padding: 30px;
+	padding: 15px 30px 15px 30px;
 	align-items: baseline;
 	background-color: rgb(64, 196, 224);
 	background-image: url("../images/FeelingsPattern.png");
 	/*background-size: cover;*/
 	border-bottom: 3px solid white;
+	position:fixed;
+	width:100%;
+	top:0;
+	z-index: 1;
 }
 
 .header-img{
@@ -95,6 +98,11 @@ p, li{
 	clear: both;
 }
 
+.quote{
+	width: 50vw;
+	margin:auto;
+}
+
 .about_feelings{
 	/*border: 1px solid black;*/
 	margin: auto;
@@ -106,7 +114,7 @@ p, li{
 	/*border: 1px solid black;*/
 	display: flex;
 	padding: 5px;
-	margin-top: 40px;
+	margin-top: 20rem;
 	margin-bottom: 40px;
 	border-bottom: 3px solid white;
 }
@@ -130,6 +138,7 @@ p, li{
 .goals img, .how img{
 	border-radius: 50px;
 	margin-top: 40px;
+	padding-bottom: 40px;
 }
 
 .goal-items p{
@@ -169,6 +178,14 @@ p, li{
 .features{
 	margin: auto;
 	padding-bottom: 40px;
+	height: 20vh;
+}
+
+.features-box{
+	height: 35vh;
+	border-left:2px solid white;
+	border-right:2px solid white;
+	margin-bottom: 40px;
 }
 
 .app-icons{
