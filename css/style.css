@@ -16,6 +16,7 @@ purple 662d91
 
 .main{
 	background-color: rgba(255, 228, 67, .8)
+
 }
 
 
@@ -38,10 +39,22 @@ h3::first-letter{
 	font-size: 3rem;
 }
 
+p, li{
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.6rem;
+	line-height: 3rem;
+}
+
 
 .header a, .footer a{
-	color:white;
-	font-weight: bold
+	color:#f9a01b;
+	font-weight: bolder;
+	font-size: 1.5em;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 
 .header {
@@ -50,7 +63,9 @@ h3::first-letter{
 	justify-content: space-between;
 	padding: 30px;
 	align-items: baseline;
-	background-color: #40c4e0;
+	background-color: rgb(64, 196, 224);
+	background-image: url("../images/FeelingsPattern.png");
+	/*background-size: cover;*/
 }
 
 .header-img{
@@ -108,17 +123,14 @@ h3::first-letter{
 }
 
 .app-img, .app-img img{
-	width: 50vw;
-	display: inline-block;
+	/*width: 50vw;*/
+	/*display: inline-block;*/
 	/*flex-wrap: wrap;*/
 /*	margin: auto;
 */	margin-top: 20px;
 	margin: auto;
 }
 
-.app-img img{
-
-}
 
 .goal-items{
 	border: 1px solid black;
@@ -141,10 +153,34 @@ h3::first-letter{
 	margin: auto;
 }
 
+.app-icons{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .how img{
 	margin-right: 10px;
 	margin-bottom: 20px;
+
 }
+
+.item{
+	border-radius: 30px;
+}
+
+.faqs-items{
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+/*.faqs p{
+	display: none;
+}*/
 
 .faqs{
 	border: 1px solid black;
@@ -162,7 +198,7 @@ span{
 	border: 1px solid black;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .box{
@@ -176,9 +212,12 @@ span{
 	border:1px solid black;
 	padding: 20px;
 	background-color: #40c4e0;
+	background-image: url("../images/FeelingsPattern.png");
+	/*background-size: cover;*/
 }
 
 .footer .nav-bar{
+	width: 40vw;
 	margin: auto;
 }
 
@@ -199,3 +238,22 @@ span{
 	margin: 10px 0px 60px;
 	border: 1px solid GREY;
 	}
+
+
+#myBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #f9a01b; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #662d91; /* Add a dark-grey background on hover */
+}
