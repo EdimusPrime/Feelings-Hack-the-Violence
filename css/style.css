@@ -254,6 +254,7 @@ span{
 
 .gaMap{
 	padding-bottom: 5rem;
+	padding-left: 5rem;
 }
 
 .contact{
@@ -262,8 +263,12 @@ span{
 	margin-bottom: 40px;
 	margin: 0 auto;
 	border-top: 3px solid white;
-
 }
+
+.form-area{
+		border-radius: 30px;
+}
+
 
 .box{
 	margin: auto;
@@ -273,12 +278,9 @@ span{
 
 
 .footer{
-	/*border:1px solid black;*/
 	padding: 20px;
 	background-color: #40c4e0;
 	background-image: url("../images/FeelingsPattern.png");
-/*	margin-top: 15px;
-*/	/*background-size: cover;*/
 	border-top: 3px solid white;
 }
 
