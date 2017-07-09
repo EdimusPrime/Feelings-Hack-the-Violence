@@ -28,7 +28,7 @@ a:hover{
 
 }
 
-h2{
+h2, h3{
 	color: #40c4e0;
 }
 
@@ -52,7 +52,7 @@ p, li{
 .header p, .footer p{
 	color:#f9a01b;
 	font-weight: bolder;
-	font-size: 2em;
+	font-size: 1.6em;
 	text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -202,7 +202,7 @@ p, li{
 
 }
 
-.item{
+.item, .gaMap{
 	border-radius: 30px;
 }
 
@@ -230,11 +230,39 @@ span{
 	color: #6cbe45;
 }
 
+.targetMarket{
+	margin-bottom: 5rem;
+
+}
+
+.marketItems{
+	padding: 1.5rem;
+}
+
+.marketPartners{
+	padding-top: 5rem;
+}
+
+.partners{
+	margin: auto;
+	justify-content: space-between;
+}
+
+.partnerItems{
+	padding-top: 2rem;
+}
+
+.gaMap{
+	padding-bottom: 5rem;
+}
+
 .contact{
 	/*border: 1px solid black;*/
 	margin-top: 20px;
 	margin-bottom: 40px;
 	margin: 0 auto;
+	border-top: 3px solid white;
+
 }
 
 .box{
