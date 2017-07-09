@@ -93,6 +93,7 @@ p, li{
 	/*border: 1px solid black;*/
 	margin: auto;
 	margin-bottom: 40px;
+	clear: both;
 }
 
 .about_container{
@@ -168,6 +169,7 @@ p, li{
 	justify-content: space-between;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	clear: both;
 }
 
 .how img{
@@ -267,3 +269,26 @@ span{
 #myBtn:hover {
     background-color: #662d91; /* Add a dark-grey background on hover */
 }
+
+/*Animation attempt*/
+
+@keyframes cloudDance{
+	0%{transform: translate(-800px, 500px)}
+	25%{transform: translate(-400px, 400px)}
+	50%{transform: translate(-300px, 300px)}
+	75%{transform: translate(-400px, 200px)}
+	100%{transform: translate(-800px, 100px)}
+}
+
+.cloudDance{
+	float: left;
+
+	animation-name: cloudDance;
+	animation-duration: 10s;
+	animation-timing-function: ease;
+	animation-iteration-count:infinite;
+}
+
+
+
+
