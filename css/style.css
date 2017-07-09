@@ -59,7 +59,7 @@ p, li{
 
 .header {
 	display: flex;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	justify-content: space-between;
 	padding: 30px;
 	align-items: baseline;
@@ -73,7 +73,7 @@ p, li{
 
 .nav-bar{
 	width: 30vw;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
@@ -90,32 +90,39 @@ p, li{
 }
 
 .about_feelings{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: auto;
+	margin-bottom: 40px;
 }
 
 .about_container{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: flex;
 	padding: 5px;
-	margin-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-bottom: 3px solid white;
 }
 
 .about-img{
 	margin: auto;
 	margin-left: 10px;
-
 }
 
+
+
 .goals{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: flex;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
 }
 
 .goals img, .how img{
 	border-radius: 50px;
+	margin-top: 40px;
 }
 
 .goal-items p{
@@ -133,20 +140,23 @@ p, li{
 
 
 .goal-items{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	padding: 10px;
 	margin-right: 5px;	
+	margin-top: 40px;
 }
 
 .how_container{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: auto;
+	border-bottom: 3px solid white;
 }
 
 .how{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: auto;
 	display: flex;
+	margin-bottom: 40px;
 }
 
 .how p{
@@ -171,7 +181,7 @@ p, li{
 }
 
 .faqs-items{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -183,7 +193,7 @@ p, li{
 }*/
 
 .faqs{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -195,7 +205,7 @@ span{
 }
 
 .contact{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin: 0 auto;
@@ -209,7 +219,7 @@ span{
 
 
 .footer{
-	border:1px solid black;
+	/*border:1px solid black;*/
 	padding: 20px;
 	background-color: #40c4e0;
 	background-image: url("../images/FeelingsPattern.png");
