@@ -16,6 +16,7 @@ Download the files and open starting with index.html.
 ### Prerequisites
 ```
 Google Chrome-Page was built with a focus in mind. 
+```
 
 
 
