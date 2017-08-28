@@ -17,9 +17,7 @@ Download the files and open starting with index.html.
 ```
 Google Chrome-Page was built with a focus in mind. 
 
-```
-examples
-```
+
 
 
 <!-- ## Acknowledgments
